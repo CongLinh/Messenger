@@ -54,6 +54,14 @@ class FriendsController: UICollectionViewController, UICollectionViewDelegateFlo
         return 0
     }
     
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let layout = UICollectionViewFlowLayout()
+        let controller = ChatLogController(collectionViewLayout: layout)
+        //truyền dữ liệu sang view kia
+        controller.friend = messages?[indexPath.item].friend
+        navigationController?.pushViewController(controller, animated: true)
+    }
+    
 }
 
 

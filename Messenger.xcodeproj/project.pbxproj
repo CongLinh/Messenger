@@ -17,6 +17,7 @@
 		2F72A11620DAB30600616EA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F72A11420DAB30600616EA7 /* LaunchScreen.storyboard */; };
 		2F7C07DF20DBA85D003EB293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C07DE20DBA85D003EB293 /* ViewController.swift */; };
 		2F7C07E120DBA867003EB293 /* FriendsControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C07E020DBA866003EB293 /* FriendsControllerHelper.swift */; };
+		2FE109C720DC1080002F2DBE /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE109C620DC1080002F2DBE /* ChatLogController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2F72A11720DAB30600616EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F7C07DE20DBA85D003EB293 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F7C07E020DBA866003EB293 /* FriendsControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsControllerHelper.swift; sourceTree = "<group>"; };
+		2FE109C620DC1080002F2DBE /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				2F38985620DBB02400439783 /* Friend+CoreDataProperties.swift */,
 				2F38985720DBB02400439783 /* Message+CoreDataClass.swift */,
 				2F38985820DBB02400439783 /* Message+CoreDataProperties.swift */,
+				2FE109C620DC1080002F2DBE /* ChatLogController.swift */,
 			);
 			path = Messenger;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE109C720DC1080002F2DBE /* ChatLogController.swift in Sources */,
 				2F7C07DF20DBA85D003EB293 /* ViewController.swift in Sources */,
 				2F72A10920DAB30600616EA7 /* AppDelegate.swift in Sources */,
 				2F38985C20DBB02400439783 /* Message+CoreDataProperties.swift in Sources */,
