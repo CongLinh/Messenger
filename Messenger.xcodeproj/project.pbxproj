@@ -13,11 +13,12 @@
 		2F38985C20DBB02400439783 /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F38985820DBB02400439783 /* Message+CoreDataProperties.swift */; };
 		2F72A10920DAB30600616EA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F72A10820DAB30600616EA7 /* AppDelegate.swift */; };
 		2F72A11120DAB30600616EA7 /* Messenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F72A10F20DAB30600616EA7 /* Messenger.xcdatamodeld */; };
-		2F72A11320DAB30600616EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F72A11220DAB30600616EA7 /* Assets.xcassets */; };
 		2F72A11620DAB30600616EA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F72A11420DAB30600616EA7 /* LaunchScreen.storyboard */; };
 		2F7C07DF20DBA85D003EB293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C07DE20DBA85D003EB293 /* ViewController.swift */; };
 		2F7C07E120DBA867003EB293 /* FriendsControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C07E020DBA866003EB293 /* FriendsControllerHelper.swift */; };
 		2FE109C720DC1080002F2DBE /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE109C620DC1080002F2DBE /* ChatLogController.swift */; };
+		2FF8644120DCAFDD00CDAA4D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8644020DCAFDD00CDAA4D /* CustomTabBarController.swift */; };
+		2FF8644320DCED0900CDAA4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF8644220DCED0900CDAA4D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +29,13 @@
 		2F72A10520DAB30600616EA7 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F72A10820DAB30600616EA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F72A11020DAB30600616EA7 /* Messenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Messenger.xcdatamodel; sourceTree = "<group>"; };
-		2F72A11220DAB30600616EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F72A11520DAB30600616EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F72A11720DAB30600616EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F7C07DE20DBA85D003EB293 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F7C07E020DBA866003EB293 /* FriendsControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsControllerHelper.swift; sourceTree = "<group>"; };
 		2FE109C620DC1080002F2DBE /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		2FF8644020DCAFDD00CDAA4D /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		2FF8644220DCED0900CDAA4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +70,9 @@
 			children = (
 				2F72A10820DAB30600616EA7 /* AppDelegate.swift */,
 				2F7C07DE20DBA85D003EB293 /* ViewController.swift */,
-				2F72A11220DAB30600616EA7 /* Assets.xcassets */,
 				2F72A11420DAB30600616EA7 /* LaunchScreen.storyboard */,
 				2F72A11720DAB30600616EA7 /* Info.plist */,
+				2FF8644220DCED0900CDAA4D /* Assets.xcassets */,
 				2F72A10F20DAB30600616EA7 /* Messenger.xcdatamodeld */,
 				2F7C07E020DBA866003EB293 /* FriendsControllerHelper.swift */,
 				2F38985520DBB02400439783 /* Friend+CoreDataClass.swift */,
@@ -78,6 +80,7 @@
 				2F38985720DBB02400439783 /* Message+CoreDataClass.swift */,
 				2F38985820DBB02400439783 /* Message+CoreDataProperties.swift */,
 				2FE109C620DC1080002F2DBE /* ChatLogController.swift */,
+				2FF8644020DCAFDD00CDAA4D /* CustomTabBarController.swift */,
 			);
 			path = Messenger;
 			sourceTree = "<group>";
@@ -141,8 +144,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF8644320DCED0900CDAA4D /* Assets.xcassets in Resources */,
 				2F72A11620DAB30600616EA7 /* LaunchScreen.storyboard in Resources */,
-				2F72A11320DAB30600616EA7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +158,7 @@
 			files = (
 				2FE109C720DC1080002F2DBE /* ChatLogController.swift in Sources */,
 				2F7C07DF20DBA85D003EB293 /* ViewController.swift in Sources */,
+				2FF8644120DCAFDD00CDAA4D /* CustomTabBarController.swift in Sources */,
 				2F72A10920DAB30600616EA7 /* AppDelegate.swift in Sources */,
 				2F38985C20DBB02400439783 /* Message+CoreDataProperties.swift in Sources */,
 				2F72A11120DAB30600616EA7 /* Messenger.xcdatamodeld in Sources */,

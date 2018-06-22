@@ -70,10 +70,20 @@ extension FriendsController {
             createMessageWithText(text: "Fucking Shit", friend: linh, minutesAgo: 12, context: context)
             createMessageWithText(text: "What are you doing", friend: linh, minutesAgo: 10, context: context)
 
-            let linh1 = NSEntityDescription.insertNewObject(forEntityName: "Friend", into: context) as! Friend
-            linh1.name = "Linh Nguyễn"
-            linh1.profileImageName = "avatar2"
-            createMessageWithText(text: "Hello, I'm Linh, I'm learning iOS with Swift Language", friend: linh1, minutesAgo: 8, context: context)
+            let duc = NSEntityDescription.insertNewObject(forEntityName: "Friend", into: context) as! Friend
+            duc.name = "Công Đức Lê"
+            duc.profileImageName = "avatar2"
+            createMessageWithText(text: "Hello, I'm Đức Lê, I'm learning iOS with Swift Language", friend: duc, minutesAgo: 8, context: context)
+            
+            let thanhLetrinh = NSEntityDescription.insertNewObject(forEntityName: "Friend", into: context) as! Friend
+            thanhLetrinh.name = "Thanh Letrinh"
+            thanhLetrinh.profileImageName = "avatar1"
+            createMessageWithText(text: "Hello, đcm", friend: thanhLetrinh, minutesAgo: 60 * 25, context: context)
+           
+            let toi = NSEntityDescription.insertNewObject(forEntityName: "Friend", into: context) as! Friend
+            toi.name = "Nguyễn Văn Tới"
+            toi.profileImageName = "avatar2"
+            createMessageWithText(text: "Hi, Tới Chuyên đây", friend: toi, minutesAgo: 60 * 24 * 8, context: context)
             
             
             do {
